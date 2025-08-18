@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Simplificación y Digitalización - Estado de Hidalgo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="https://images.seeklogo.com/logo-png/48/3/gobierno-del-estado-de-hidalgo-logo-png_seeklogo-488593.png" alt="Gobierno de Hidalgo" class="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#estrategia" class="nav-link">Nuestra Estrategia</a></li>
+                    <li><a href="#ubicaciones" class="nav-link">Ubicaciones</a></li>
+                    <li><a href="#educacion" class="nav-link">Educación Digital</a></li>
+                    <li><a href="#avances" class="nav-link">Panel de Avances</a></li>
+                    <li><a href="#participa" class="nav-link">Participa</a></li>
+                    <li><a href="#noticias" class="nav-link">Noticias</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="login-btn" onclick="loginWithLlaveMX()">
+                        <i class="fas fa-user"></i>
+                        <span>Iniciar Sesión</span>
+                    </button>
+                    <div class="nav-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Transformando Hidalgo hacia el Futuro Digital</h1>
+                    <p class="hero-subtitle">Somos la Agencia de Simplificación y Digitalización del Estado de Hidalgo, el nodo estratégico que impulsa la modernización de la gestión pública para una mejor experiencia ciudadana.</p>
+                    <div class="hero-buttons">
+                        <a href="#ubicaciones" class="btn btn-primary">Encontrar Oficinas</a>
+                        <a href="#estrategia" class="btn btn-secondary">Conoce Nuestra Estrategia</a>
+                    </div>
+                </div>
+                <div class="hero-video">
+                    <div class="video-container">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hQMX2v8Q5yI" title="Mensaje del Secretario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-caption">
+                            <h4>Mensaje del Secretario</h4>
+                            <p>Conoce nuestra visión para la transformación digital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Nuestra Misión</h3>
+                        <p>Simplificar y digitalizar los procesos gubernamentales para crear un gobierno más eficiente, transparente y cercano a la ciudadanía hidalguense.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Nuestra Visión</h3>
+                        <p>Ser el referente nacional en transformación digital gubernamental, posicionando a Hidalgo como un estado líder en innovación y modernización administrativa.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Nuestro Equipo</h3>
+                        <p>Profesionales especializados en tecnología, gestión pública y experiencia de usuario, comprometidos con la transformación digital del estado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Digital Strategy Section -->
+        <section id="estrategia" class="strategy">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestra Estrategia Digital</h2>
+                    <p>Un enfoque integral para la transformación del gobierno hidalguense</p>
+                </div>
+                <div class="strategy-content">
+                    <div class="strategy-pillars">
+                        <div class="pillar">
+                            <div class="pillar-number">01</div>
+                            <h3>Simplificación de Procesos</h3>
+                            <p>Eliminamos barreras burocráticas y optimizamos los trámites para reducir tiempos y mejorar la experiencia ciudadana.</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-number">02</div>
+                            <h3>Digitalización Inteligente</h3>
+                            <p>Implementamos tecnologías modernas que facilitan el acceso a servicios gubernamentales desde cualquier lugar y momento.</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-number">03</div>
+                            <h3>Capacitación y Adopción</h3>
+                            <p>Educamos y acompañamos a ciudadanos y servidores públicos en el uso de las nuevas herramientas digitales.</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-number">04</div>
+                            <h3>Transparencia y Participación</h3>
+                            <p>Promovemos un gobierno abierto que facilite la participación ciudadana y el acceso a la información pública.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Panel Section -->
+        <section id="avances" class="progress">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Panel de Avances</h2>
+                    <p>Indicadores clave de nuestra transformación digital</p>
+                </div>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-number">15%</div>
+                        <div class="metric-label">Trámites Digitalizados</div>
+                        <div class="metric-change positive">+10% este año</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">45</div>
+                        <div class="metric-label">Trámites simplificados</div>
+                        <div class="metric-change positive">+12 nuevas</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">250K</div>
+                        <div class="metric-label">Consultas de trámites y servicios en RUTS</div>
+                        <div class="metric-change positive">+30% este año</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">72h</div>
+                        <div class="metric-label">Tiempo Reducido en trámites</div>
+                        <div class="metric-change positive">-60% vs anterior</div>
+                    </div>
+                 
+                </div>
+
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-number">34</div>
+                        <div class="metric-label"> Protestas Ciudadanas Atendidas</div>
+                        <div class="metric-change positive">+10% este año</div>
+                    </div>  
+                    <div class="metric-card">
+                        <div class="metric-number">61</div>
+                        <div class="metric-label">Trámites gestionados a través de la plataforma Migrantes Hidalgo</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">24</div>
+                        <div class="metric-label">Requisitos eliminados</div>
+                        <div class="metric-change positive">+30% este año</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">83</div>
+                        <div class="metric-label">Comerciantes dados de alta en la plataforma de Pueblos indígenas</div>
+                        <div class="metric-change positive">-60% vs anterior</div>
+                    </div>
+                 
+                </div>
+               
+
+
+                <div class="timeline">
+                    <h3>Línea de Tiempo de Logros</h3>
+                    <div class="timeline-container">
+                        <div class="timeline-item left">
+                            <div class="timeline-year">2022</div>
+                            <div class="timeline-content">
+                                <h4>Se fortalece la Comisión Estatal de Mejora Regulatoria</h4>
+                                <p>Establecimiento de las bases para la simplificación administrativa y mejora regulatoria en el estado.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-year">2023</div>
+                            <div class="timeline-content">
+                                <h4>Implementación de Plataformas Digitales</h4>
+                                <p>Lanzamiento de las primeras herramientas digitales para facilitar trámites y servicios gubernamentales.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left">
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h4>Digitalización Masiva de Trámites</h4>
+                                <p>Expansión significativa de servicios digitales y eliminación de barreras burocráticas.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h4>Emisión de la Ley Nacional para Eliminar Trámites Burocráticos</h4>
+                                <p>Marco legal que consolida los esfuerzos de simplificación y modernización administrativa.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left">
+                            <div class="timeline-year">2026</div>
+                            <div class="timeline-content">
+                                <h4>Se crea la Agencia Estatal de Simplificación y Digitalización</h4>
+                                <p>Institucionalización definitiva de la transformación digital gubernamental en Hidalgo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Access to Platforms -->
+        <section class="platforms-access">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Acceso a Micrositios y Plataformas</h2>
+                    <p>Enlaces directos a nuestras plataformas especializadas</p>
+                </div>
+                <div class="platform-grid">
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>RUTS</span>
+                        <small>Registro Único de Trámites y Servicios</small>
+                    </a>
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Aid RUTS</span>
+                        <small>Asistencia para trámites</small>
+                    </a>
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Protesta Ciudadana</span>
+                        <small>Canal de quejas y sugerencias</small>
+                    </a>
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-plane"></i>
+                        <span>Migrantes</span>
+                        <small>Servicios para migrantes hidalguenses</small>
+                    </a>
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-feather-alt"></i>
+                        <span>Pueblos Indígenas</span>
+                        <small>Atención a comunidades indígenas</small>
+                    </a>
+                    <a href="#" class="platform-link">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>SAIR</span>
+                        <small>Sistema de Atención Integral</small>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicaciones Section -->
+        <section id="ubicaciones" class="ubicaciones">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Encuentra tu Oficina Gubernamental</h2>
+                    <p>Busca el trámite que necesitas y encuentra la oficina más cercana</p>
+                </div>
+                
+                <div class="map-search">
+                    <div class="search-container">
+                        <input type="text" id="tramiteSearch" placeholder="¿Qué trámite necesitas hacer? (ej. licencia de conducir, acta de nacimiento...)" class="search-input">
+                        <button class="btn btn-primary" id="searchBtn">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div id="map" class="interactive-map">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Mapa interactivo de oficinas gubernamentales</p>
+                            <small>Busca un trámite para ver las ubicaciones disponibles</small>
+                        </div>
+                    </div>
+                    
+                    <div class="results-panel" id="resultsPanel" style="display: none;">
+                        <h3>Oficinas encontradas</h3>
+                        <div id="officeResults">
+                            <!-- Results will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Digital Education Section -->
+        <section id="educacion" class="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Educación Digital</h2>
+                    <p>Aprende sobre la transformación digital y cómo aprovechar las nuevas tecnologías</p>
+                </div>
+                <div class="education-content">
+                    <div class="education-tabs">
+                        <button class="tab-btn active" data-tab="blog">Blog</button>
+                        <button class="tab-btn" data-tab="guides">Guías</button>
+                        <button class="tab-btn" data-tab="faq">Preguntas Frecuentes</button>
+                    </div>
+                    <div class="tab-content active" id="blog">
+                        <div class="blog-grid">
+                            <article class="blog-card">
+                                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop&auto=format&q=80" alt="LlaveMX">
+                                <div class="blog-content">
+                                    <h3>¿Qué es LlaveMX y cómo te beneficia?</h3>
+                                    <p>Descubre cómo esta herramienta de identidad digital simplifica tus trámites gubernamentales.</p>
+                                    <a href="#" class="read-more">Leer más</a>
+                                </div>
+                            </article>
+                            <article class="blog-card">
+                                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop&auto=format&q=80" alt="Seguridad Digital">
+                                <div class="blog-content">
+                                    <h3>Protege tus datos en el mundo digital</h3>
+                                    <p>Consejos esenciales para mantener tu información personal segura en línea.</p>
+                                    <a href="#" class="read-more">Leer más</a>
+                                </div>
+                            </article>
+                            <article class="blog-card">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=250&fit=crop&auto=format&q=80" alt="Gobierno Digital">
+                                <div class="blog-content">
+                                    <h3>Mitos y realidades del gobierno digital</h3>
+                                    <p>Desmitificamos las ideas erróneas sobre la digitalización gubernamental.</p>
+                                    <a href="#" class="read-more">Leer más</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="guides">
+                        <div class="guides-grid">
+                            <div class="guide-card">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Guía de Apps Móviles</h3>
+                                <p>Aprende a usar las aplicaciones móviles del gobierno estatal</p>
+                                <a href="#" class="btn btn-outline">Descargar PDF</a>
+                            </div>
+                            <div class="guide-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h3>Seguridad Digital</h3>
+                                <p>Manual completo de buenas prácticas en seguridad digital</p>
+                                <a href="#" class="btn btn-outline">Descargar PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="faq">
+                        <div class="faq-list">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    ¿Es seguro usar mi LlaveMX en línea?
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Sí, LlaveMX utiliza los más altos estándares de seguridad digital, incluyendo encriptación de extremo a extremo y autenticación multifactor.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    ¿Qué hago si no tengo acceso a internet?
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Muchos trámites siguen disponibles de forma presencial. Consulta las oficinas de atención ciudadana más cercanas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Citizen Participation Section -->
+        <section id="participa" class="participation">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Participa</h2>
+                    <p>Tu voz es importante para mejorar nuestros servicios digitales</p>
+                </div>
+                <div class="participation-content">
+                    <div class="participation-options">
+                        <div class="option-card">
+                            <i class="fas fa-comments"></i>
+                            <h3>Contacto y Sugerencias</h3>
+                            <p>Comparte tus ideas, dudas o comentarios para mejorar nuestros servicios</p>
+                            <button class="btn btn-primary" onclick="openModal('contact')">Contactar</button>
+                        </div>
+                        <div class="option-card">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h3>Reportar Falla en Plataforma</h3>
+                            <p>Informa sobre problemas técnicos en alguna plataforma gubernamental</p>
+                            <button class="btn btn-primary" onclick="openModal('report')">Reportar Falla</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="noticias" class="news">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Noticias y Comunicados</h2>
+                    <p>Mantente informado sobre nuestras últimas actualizaciones</p>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card featured">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop&auto=format&q=80" alt="Noticia Principal">
+                        <div class="news-content">
+                            <span class="news-category">Comunicado</span>
+                            <h3>Nueva actualización de la plataforma de trámites en línea</h3>
+                            <p>Mejoras significativas en velocidad y experiencia de usuario para todos los servicios digitales.</p>
+                            <div class="news-meta">
+                                <span class="news-date">15 de Agosto, 2024</span>
+                                <a href="#" class="read-more">Leer completo</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=250&fit=crop&auto=format&q=80" alt="Noticia">
+                        <div class="news-content">
+                            <span class="news-category">Evento</span>
+                            <h3>Taller de Capacitación Digital</h3>
+                            <p>Próximo taller para servidores públicos sobre nuevas herramientas.</p>
+                            <div class="news-meta">
+                                <span class="news-date">10 de Agosto, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop&auto=format&q=80" alt="Noticia">
+                        <div class="news-content">
+                            <span class="news-category">Logro</span>
+                            <h3>Hidalgo reconocido por innovación digital</h3>
+                            <p>El estado recibe premio nacional por sus avances en gobierno digital.</p>
+                            <div class="news-meta">
+                                <span class="news-date">5 de Agosto, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Agencia de Simplificación y Digitalización</h3>
+                    <p>Transformando Hidalgo hacia el futuro digital</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#estrategia">Nuestra Estrategia</a></li>
+                        <li><a href="#boveda">Bóveda Hidalgo</a></li>
+                        <li><a href="#educacion">Educación Digital</a></li>
+                        <li><a href="#participa">Participa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> contacto@agenciadigital.hidalgo.gob.mx</p>
+                    <p><i class="fas fa-phone"></i> (771) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pachuca de Soto, Hidalgo</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Transparencia</h4>
+                    <ul>
+                        <li><a href="#">Portal de Transparencia</a></li>
+                        <li><a href="#">Datos Abiertos</a></li>
+                        <li><a href="#">Rendición de Cuentas</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gobierno del Estado de Hidalgo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

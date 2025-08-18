@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  hidalgo-platform:
+    build: .
+    container_name: hidalgo-digital-platform
+    ports:
+      - "8444:80"  # Puerto 8444 externo -> 80 interno
+    restart: unless-stopped
+    volumes:
+      - ./logs:/var/log/nginx
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
